@@ -1,5 +1,23 @@
+import json
+import os
+
+TASK_FILE ='tasks.jason'
+
+def load_task():
+    if os.path.exists(TASK_FILE):
+        with open(TASK_FILE, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    return []
+
+def save_task(tasks):
+    with open(TASK_FILE, 'w', encoding='utf=8')as file:
+        json.dump(tasks, file, indent=4, ensure_ascii= False)
+
 def add_task(task_name):
-    pass
+    tasks = load_task()
+    task = {'name': task_name, 'completed':False}
+    tasks.append(task)
+    save_task(tasks)
 
 def view_task():
     pass
