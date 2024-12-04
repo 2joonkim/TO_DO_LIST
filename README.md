@@ -107,7 +107,7 @@ task_manager/
 
 ## 👨‍👩‍👧‍👦 개발자  
 
-- [Your Name](https://github.com/yourusername)  
+- [2joon_kim](https://github.com/2joonkim)  
 
 ---
 
