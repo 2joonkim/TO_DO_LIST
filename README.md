@@ -1,3 +1,6 @@
+![TODO](https://github.com/user-attachments/assets/04299f64-c06e-41eb-910c-77277d45dc87)
+
+
 # 📝 작업 관리 애플리케이션  
 
 ![License Badge](https://img.shields.io/badge/license-MIT-blue)  
